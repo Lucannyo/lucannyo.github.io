@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+<defs><pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M2 1v9m7-6v15m8-18v13m5 4v5" stroke="#afa598" stroke-opacity=".08" stroke-width=".6"/></pattern>
+
+
+ <linearGradient id="steel" x2=".7" y2="1"><stop stop-color="#383633"/><stop offset=".45" stop-color="#1d1d1c"/><stop offset="1" stop-color="#30302c"/></linearGradient>
+</defs>
+<path fill="url(#steel)" d="M0 0h600v600H0z"/>
+<g opacity=".55" fill="#63351f"><path d="M0 0h600v28L490 43 410 19 290 47 200 20 90 56 0 29zM0 430l25 12 12 90 45 68H0zM470 600l34-70 50-9 46-75v154z"/><path fill="#994921" d="M0 0h600v8L460 15 390 6 210 19 90 9 0 23zM0 545l24 11 14 44H0z"/></g>
+<g opacity=".17" stroke="#c6ba9e" stroke-width=".7"><path d="M42 94l148-8m-60 158l220-17m-110 8l160-15M80 403l99-7m220-26l170-12M20 510l195-23M400 100l130-12"/></g>
+<path fill="url(#grain)" d="M0 0h600v600H0z"/>
+</svg>

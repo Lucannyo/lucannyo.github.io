@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0b0a">
+  <title>PANDEMONIVM — Dados de RPG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header class="intro"><h1>PANDEMONIVM</h1><p>O destino deixa marcas. Escolha os dados e faça sua rolagem.</p></header>
+    <section class="board-wrap" aria-label="Tabuleiro octogonal com oito setores">
+      <div class="board" id="board">
+        <svg viewBox="0 0 320 320" role="group" aria-labelledby="boardTitle boardDesc">
+          <title id="boardTitle">Tabuleiro octogonal</title><desc id="boardDesc">Clique em um número para selecionar o próprio setor e todos os maiores que ele. A borda clara indica onde cada dado parou.</desc>
+          <defs><pattern id="iron" width="320" height="320" patternUnits="userSpaceOnUse"><image href="assets/metal.svg" width="320" height="320"/></pattern></defs><g id="slices"></g><image class="board-blood" href="assets/blood.svg" x="18" y="18" width="284" height="284" aria-hidden="true"/><g id="dice" aria-hidden="true"></g>
+        </svg>
+      </div>
+    </section>
+    <section class="controls" aria-labelledby="chooseTitle">
+      <h2 id="chooseTitle">Escolha os dados</h2><p>Selecione o tipo, a quantidade e os setores do tabuleiro.</p>
+      <div class="choices" role="group" aria-label="Tipo de dado">
+        <button class="die" aria-pressed="false" data-sides="4">d4</button><button class="die" aria-pressed="true" data-sides="6">d6</button><button class="die" aria-pressed="false" data-sides="8">d8</button><button class="die" aria-pressed="false" data-sides="10">d10</button><button class="die" aria-pressed="false" data-sides="12">d12</button><button class="die" aria-pressed="false" data-sides="20">d20</button>
+      </div>
+      <div class="quantity-row"><label for="quantity">Quantidade de dados</label><input id="quantity" type="number" min="1" max="10" step="1" value="1" inputmode="numeric"></div>
+      <button class="roll" id="roll">ROLAR 1 D6</button>
+      <div class="result" aria-live="polite" aria-atomic="true"><div class="result-copy" id="resultCopy">À espera da rolagem<strong>Escolha os setores e role os dados.</strong></div></div>
+      <p class="selection-status" id="selectionStatus" aria-live="polite">Nenhum setor selecionado.</p>
+      <p class="hint">Clique em um número para selecionar o próprio setor e todos os maiores que ele. Os dados nesses setores recebem um contorno claro.</p>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs><linearGradient id="blood" x2="1" y2="1"><stop stop-color="#8b1818"/><stop offset=".5" stop-color="#4b080c"/><stop offset="1" stop-color="#210507"/></linearGradient></defs>
+<g fill="url(#blood)"><path d="M73 110l20-18 12 24 35-11-9 25 21 17-28 7 14 30-27-7-3 23-17-21-26 9 6-32-24-6 27-14zM420 380l23-15 8 25 30-6-7 22 33 7-28 18 13 25-24-1-6 25-18-24-31 10 7-30-25-14 31-12z"/><path d="M83 150q-17 70 1 140 6 24 8 9 3-75 17-122zM431 423q-13 65-7 116 5 24 9 0l16-112z"/>
+<ellipse cx="140" cy="95" rx="8" ry="11"/><ellipse cx="48" cy="125" rx="5" ry="8"/><ellipse cx="173" cy="163" rx="8" ry="5"/><circle cx="120" cy="218" r="5"/><circle cx="53" cy="191" r="4"/><circle cx="393" cy="368" r="6"/><circle cx="498" cy="376" r="8"/><circle cx="517" cy="443" r="5"/><circle cx="407" cy="489" r="4"/><ellipse cx="458" cy="500" rx="4" ry="12"/>
+<path opacity=".65" d="M230 25q45 8 99 1l-4 9-95 7zM240 48l81-9-2 7-69 10zM170 511l91-28-7 15-76 25z"/></g></svg>
